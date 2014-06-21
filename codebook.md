@@ -1,6 +1,6 @@
 # Codebook Description
 
-This code book describes the data analyzed, the variables extracted from the data analyzed and any transofmrations perfoemed on the data
+This code book describes the data analyzed, the variables extracted (from the data analyzed) and any transformations performed on the data
 
 # Data for the project assignment
 The data presented below is a subset of the data for the project assignment.  The project assignment data can be found at
@@ -41,13 +41,9 @@ The following files are available for the train and test data. Their description
 
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-# Project assignment output data.  The run_analysis.R scirpt outputed the data below. The data are a small subset of all data collected.
+# Project assignment output data.  
+The run_analysis.R scirpt outputed the data described below. The data is a small subset of all data collected in the experiements.
 
-Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
-- Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-- Its activity label. 
-- An identifier of the subject who carried out the experiment.
 
 # Means for time domain measurements 
 

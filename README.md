@@ -51,7 +51,7 @@ Write the data to the "MeanAndStdMeasurements.csv" file.  Note that the uploaded
 ## Step 15
 Combine activity, mean and std deviation vectors (in Step 13) with subject information
 
-## Step 15
+## Step 16
 Prepare the data (of step 15) to be written in a nice format using reshape2 package and then write "ActivitySubjectMeans.csv" file.  Note that the uploaded file was renamed to "txt" so that it can be uploaded. If renamed to csv it can be read by EXCEL (it is much more readable in EXCEL)
 
 

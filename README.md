@@ -36,7 +36,26 @@ Identify all mean and standard deviation measurements by searching for "mean" an
 Use the column names (descriptive names/feature labels) identified in previous step to select only the column data vectors of interest so that they can be written to the tidy data set later on
 
 ## Step 11
-Use the column names (descriptive names/feature labels) identified in previous step to select only the column data vectors of interest so that they can be written to the tidy data set later on
+Read descriptive names for user activities using a "read.table" call (the file is in "UCI HAR Dataset" and is called "activity_labels.txt")
+
+## Step 12
+Join descriptive activity name with actual activity
+
+## Step 13
+Collect the the activity vector along with the mean and std data vectors into one frame
+
+
+## Step 14
+Write the data to the "MeanAndStdMeasurements.csv" file.  Note that the uploaded file was renamed to "txt" so that it can be uploaded. If renamed to csv it can be read by EXCEL (it is much more readable in EXCEL)
+
+## Step 15
+Combine activity, mean and std deviation vectors (in Step 13) with subject information
+
+## Step 15
+Prepare the data (of step 15) to be written in a nice format using reshape2 package and then write "ActivitySubjectMeans.csv" file.  Note that the uploaded file was renamed to "txt" so that it can be uploaded. If renamed to csv it can be read by EXCEL (it is much more readable in EXCEL)
+
+
+
 
 
 

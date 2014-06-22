@@ -1,7 +1,7 @@
 CleaningData
 ============
 
-This repo contains files for the course project in the Cleaning Data coursera course
+This repo contains files for the course project in the Cleaning Data coursera course.  The scipt assumes that package reshape2 has been installed.  Before the script is run statement "library(reshape2) has to be executed.  In addition the current working directory should be the same as where the script run_anaysis.R resides and the directory (UIC HAR DataSet) and associated subdirectories (under "UIC HAR DataSet") must be under the directory where the script "run_analysis.R" resides
 
 The script operates as follows:
 
